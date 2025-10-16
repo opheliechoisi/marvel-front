@@ -1,0 +1,293 @@
+/*         CHARACTERS         */
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.characters-container {
+  background-color: #000000; /* ou rgba si tu veux un peu de transparence */
+
+  padding: 40px 20px;
+  color: #fff;
+}
+
+/* centre le contenu avec une largeur max (optionnel) */
+.description-container {
+  max-width: 1224px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.description-container h2 {
+  font-size: 24px;
+}
+.description-container p {
+  margin-top: 10px;
+}
+
+/* recherche */
+.search-bar {
+  display: block;
+  width: 165px;
+  margin: 40px auto 30px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.364);
+  background: rgba(255, 255, 255, 0.02);
+  color: #fff;
+}
+
+/* grille */
+.characters-grid {
+  max-width: 1224px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+/* card */
+.character-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 320px; /* moins haut que 500 */
+  overflow: hidden;
+
+  /*transition: transform 0.18s ease, box-shadow 0.18s ease;*/
+
+  border: 0.1px solid rgba(53, 53, 53, 0.479);
+}
+
+.character-card:hover {
+  transform: translateY(-6px);
+}
+
+.character-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+/*         CHARACTERS COMICS       */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.comics-container {
+  background-color: #000;
+  padding: 40px 20px;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.comics-description {
+  max-width: 1224px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.comics-description h2 {
+  font-size: 24px;
+}
+
+.comics-description p {
+  margin-top: 10px;
+}
+
+/* retour */
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.36);
+  background: rgba(255, 255, 255, 0.02);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* grille comics */
+.comics-grid {
+  max-width: 1224px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+/* card comic */
+.comic-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 320px; /* moins haut que 500 */
+  overflow: hidden;
+
+  /*transition: transform 0.18s ease, box-shadow 0.18s ease;*/
+
+  border: 0.1px solid rgba(53, 53, 53, 0.479);
+}
+
+.comic-card:hover {
+  transform: translateY(-6px);
+}
+
+.comic-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.comic-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.comic-card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/*         COMICS        */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.comics-container {
+  background-color: black;
+}
+
+.comics-page {
+  background-color: #000;
+  padding: 40px 20px;
+  color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* titre et description */
+.comics-page h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.comics-page p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*     FAVORITES     */
+/* ===== FAVORITES PAGE ===== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+}
+
+.description-container {
+  background-color: #000;
+}
+.favorites-container {
+  background-color: #000;
+  padding: 40px 20px;
+  color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+/* titre */
+.favorites-container h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* texte quand aucun favori */
+.hero-text {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* grille des favoris */
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* card favori */
+.character-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: 12px;
+  padding: 16px;
+  min-height: 320px;
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-6px);
+}
+
+.character-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.character-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.character-card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* bouton de suppression */
+.hero-button-remove {
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 0.1px solid;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* FAVORTITES BUTTON */
+.favorite-btn {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 17px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
