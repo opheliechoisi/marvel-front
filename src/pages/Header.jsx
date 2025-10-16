@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import logoMarvel from "../assets/logoMarvel.png";
+import logoMarvel from "/public/assets/logoMarvel.png";
 import "./css/header.css";
 
 const Header = () => {

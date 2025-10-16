@@ -9,7 +9,7 @@
   text-align: right;
   overflow: hidden;
 
-  background-image: url("../src/assets/background.png");
+  background-image: url("/public/assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
